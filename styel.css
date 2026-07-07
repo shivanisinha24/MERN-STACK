@@ -1,0 +1,162 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f3f6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2874f0;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 2px 0 0 2px;
+}
+
+.search-box button {
+  padding: 8px 15px;
+  border: none;
+  background: #ff9f00;
+  color: #fff;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Location Bar */
+.location-bar {
+  background: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.location-bar button {
+  background: #2874f0;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Travel Section */
+.travel {
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.travel h2 {
+  margin-bottom: 15px;
+  color: #2874f0;
+}
+
+.travel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.travel-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.travel-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.travel-card h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.travel-card p {
+  color: #2874f0;
+  font-weight: bold;
+}
+
+/* Products */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #2874f0;
+  font-weight: bold;
+}
