@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <ul id="unorderdList-1">
+    <li class="items">Items 1</li>
+    <li class="items">Items 2</li>
+    <li class="items">Items 3</li>
+    <li class="items">Items 4</li>
+    <li class="items">Items 5</li>
+  </ul>
+  <ul id="unorderdList-2">
+    <li>List items 1</li>
+    <li>List items 2</li>
+    <li>List itmes 3</li>
+    <li>List items 4</li>
+  </ul>
+  <script>
+    let fruits =['apple','banana','berry','mango'];
+    
+    let newItem = document.createElement('li');
+    newItem.textcontent = 'kiwi';
+    Object.values(fruits).forEach((fruit) =>{
+      let list = document.getElementById('fruits');
+      list.appendChild(newItem);
+      console.log(fruits);
+    });
+  </script>
+</body>
+</html>

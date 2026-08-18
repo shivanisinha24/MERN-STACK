@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul id="unorderdList-1">
+    <li class="items">Items 1</li>
+    <li class="items">Items 2</li>
+    <li class="items">Items 3</li>
+    <li class="items">Items 4</li>
+    <li class="items">Items 5</li>
+  </ul>
+  <ul id="unorderdList-2">
+    <li>List items 1</li>
+    <li>List items 2</li>
+    <li>List itmes 3</li>
+    <li>List items 4</li>
+  </ul>
+  <script>
+    //let ul1 = document.getElementById('unorderdList-1');
+    //let ul2 = document.getElementById('unorderdList-2');
+    //let item = document.getElementsByClassName('items');
+    //console.log(ul1);
+    //console.log(ul2);
+    //Object.values(item).forEach((el) => {
+      //console.log(el.textContent);
+    //}); 
+    //let allListsitems = document.getElementsByTagName('li');
+    //Object.values(allListsitems).forEach((element) => {
+      //console.log(element);
+    //});
+    //let listitems = document.getElementsByName('li');
+    //console.log(listitems);
+    //let listitem = document.querySelector('underList-1');
+    //console.log(listitem);
+    // const s = document.querySelectorAll;
+    //console.log(s); 
+      //let fruits = ['apple','mango','berry','banana','kiwi'];
+      let newListItem = document.createElement('li');
+      let parent = document.getElementById('unorderdList-1');
+      newListItem.innerText= 'fruits';
+      parent.appendChild(newListItem);
+      console.log(newListItem);
+      let List = document.getElementById('list');
+      
+  </script>
+</body>
+</html>
